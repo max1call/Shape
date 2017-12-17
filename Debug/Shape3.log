@@ -1,0 +1,26 @@
+﻿Построение начато 15.12.2017 20:15:55.
+     1>Проект "C:\Users\асер\Documents\Visual Studio 2010\Projects\Shape3\Shape3.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Shape3.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\асер\documents\visual studio 2010\projects\shape3\main.cpp(73): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128): см. объявление "getch"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\асер\Documents\Visual Studio 2010\Projects\Shape3\Debug\Shape3.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Shape3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\асер\Documents\Visual Studio 2010\Projects\Shape3\Debug\Shape3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\асер\Documents\Visual Studio 2010\Projects\Shape3\Debug\Shape3.lib" /MACHINE:X86 Debug\Container.obj
+         Debug\Main.obj
+         Debug\Paint.obj
+         Debug\Shape.obj
+     1>Container.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
+         Shape3.vcxproj -> C:\Users\асер\Documents\Visual Studio 2010\Projects\Shape3\Debug\Shape3.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\асер\Documents\Visual Studio 2010\Projects\Shape3\Debug\Shape3.exe;#1" /manifest Debug\Shape3.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\Shape3.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Shape3.lastbuildstate".
+     1>Построение проекта "C:\Users\асер\Documents\Visual Studio 2010\Projects\Shape3\Shape3.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.66

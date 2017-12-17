@@ -1,10 +1,10 @@
 #include "Shape.h"
 
 Shape::Shape(){
-	p1.x=0;
-	p1.y=0;
-	p2.x=0;
-	p2.y=0;
+	p1.x=10;
+	p1.y=10;
+	p2.x=100;
+	p2.y=100;
 	border=20;
 }
 void Shape::loadData(std::string fileName){
@@ -34,6 +34,11 @@ POINT Shape::getP1(){
 }	
 POINT Shape::getP2(){
 	return p2;
+}
+POINT Shape::getSize(){
+	size.x=p2.x - p1.x;
+	size.y=p2.y - p1.y;
+	return size;
 }
 void Shape::saveToFile(std::string fileName){
 	std::ofstream file(fileName); 
